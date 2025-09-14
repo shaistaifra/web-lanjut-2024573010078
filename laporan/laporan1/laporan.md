@@ -24,19 +24,19 @@ Laravel adalah sebuah framework PHP yang bersifat open-source, dirancang untuk m
 Laravel adalah framework PHP yang kuat dan fleksibel, dirancang untuk mendukung pengembangan aplikasi berbasis MVC. Dengan fitur-fitur unggulan seperti Eloquent ORM, Blade Template Engine, dan Artisan, Laravel membantu pengembang menciptakan aplikasi yang efisien, terstruktur, dan mudah dipelihara. Jika Anda mencari framework PHP yang modern dan ramah pengembang, Laravel adalah pilihan yang tepat.
 
 Karakteristik utama laravel beberapa diantaranya adalah:
-    1. Arsitektur Model-View-Controller (MVC)
-        Pola ini memisahkan aplikasi menjadi tiga bagian, sehingga kode lebih rapi dan terstruktur:
-        - Model: Bertanggung jawab untuk interaksi dengan database. Misalnya, data produk, data pengguna, atau  data artikel.
-        - View: Mengelola tampilan yang akan dilihat oleh pengguna. Ini adalah bagian visual dari website.
-        - Controller: Menjadi jembatan yang menghubungkan Model dan View, serta menangani logika aplikasi. Jadi, saat pengguna mengeklik sebuah tombol, controller yang akan memproses permintaan tersebut.
-    2. Sintaks yang Ekspresif
-        Laravel menggunakan sintaks yang mudah dibaca dan intuitif, seperti yang terlihat pada templating engine-nya, Blade. Contohnya, untuk menampilkan data, Anda cukup menulis {{ $nama }}
-    3. Opinionated Framework
-        Opinionated framework adalah sebuah kerangka kerja (framework) yang sudah memiliki "pendapat" atau cara yang disarankan dalam menyelesaikan suatu masalah. Artinya, framework ini memberikan aturan, struktur, dan konvensi yang sudah ditentukan untuk membangun aplikasi.
-    4. Alat-alat Bawaan yang Kuat:
-        - Artisan: Alat command-line yang sangat membantu untuk tugas-tugas berulang, seperti membuat controller atau migration database.
-        - Eloquent ORM: Sebuah Object-Relational Mapper yang memungkinkan Anda berinteraksi dengan database menggunakan   sintaks PHP yang elegan, tanpa harus menulis query SQL mentah.
-        - Otentikasi & Otorisasi: Laravel menyediakan fitur login, register, dan manajemen hak akses yang sudah siap pakai.
+1. Arsitektur Model-View-Controller (MVC)
+    Pola ini memisahkan aplikasi menjadi tiga bagian, sehingga kode lebih rapi dan terstruktur:
+    - Model: Bertanggung jawab untuk interaksi dengan database. Misalnya, data produk, data pengguna, atau  data artikel.
+    - View: Mengelola tampilan yang akan dilihat oleh pengguna. Ini adalah bagian visual dari website.
+    - Controller: Menjadi jembatan yang menghubungkan Model dan View, serta menangani logika aplikasi. Jadi, saat pengguna mengeklik sebuah tombol, controller yang akan memproses permintaan tersebut.
+2. Sintaks yang Ekspresif
+    Laravel menggunakan sintaks yang mudah dibaca dan intuitif, seperti yang terlihat pada templating engine-nya, Blade. Contohnya, untuk menampilkan data, Anda cukup menulis {{ $nama }}
+3. Opinionated Framework
+    Opinionated framework adalah sebuah kerangka kerja (framework) yang sudah memiliki "pendapat" atau cara yang disarankan dalam menyelesaikan suatu masalah. Artinya, framework ini memberikan aturan, struktur, dan konvensi yang sudah ditentukan untuk membangun aplikasi.
+4. Alat-alat Bawaan yang Kuat:
+    - Artisan: Alat command-line yang sangat membantu untuk tugas-tugas berulang, seperti membuat controller atau migration database.
+    - Eloquent ORM: Sebuah Object-Relational Mapper yang memungkinkan Anda berinteraksi dengan database menggunakan   sintaks PHP yang elegan, tanpa harus menulis query SQL mentah.
+    - Otentikasi & Otorisasi: Laravel menyediakan fitur login, register, dan manajemen hak akses yang sudah siap pakai.
 
 -  Laravel sangat cocok untuk berbagai jenis aplikasi web karena framework ini dibuat untuk memudahkan  pengembangan dan mengefisienkan alur kerja. beberapa contohnya adalah:
     1. Aplikasi Web Kustom
